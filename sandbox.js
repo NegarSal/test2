@@ -8,3 +8,7 @@ paras.forEach(p => {
         p.classList.add('success')
     }
 })
+
+const title = document.querySelector('.title')
+title.classList.toggle('test');
+//title.classList.toggle('test');
